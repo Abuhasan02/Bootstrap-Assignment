@@ -1,0 +1,16 @@
+header{
+    background-color: #FFFBF0;
+    ;
+}
+.img-icon{
+    height: auto;
+    width: 4rem;
+    padding: 0;
+}
+.logo-txt{
+    font-size: 1.5rem;
+}
+.navbar-nav a{
+    font-weight: 700;
+    color: black;
+}
