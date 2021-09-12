@@ -1,7 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-color: #FFFBF0;
-    ;
 }
+h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20rem;
+    line-height: 5rem;
+}
+
 .img-icon{
     height: auto;
     width: 4rem;
@@ -13,4 +23,28 @@ header{
 .navbar-nav a{
     font-weight: 700;
     color: black;
+}
+/* banner start*/
+.banner-content{
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+    border: 2px solid red;
+}
+.banner-content p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-img img{
+    height: 20rem;
+    width: 20rem;
+}
+.banner-btn{
+    padding:.5rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.banner-btn i{
+    color: white;
+    padding-right: 5px;
 }
