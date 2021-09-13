@@ -2,14 +2,26 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header{
     background-color: #FFFBF0;
 }
-h1{
+section{
+    margin-top: 1rem;
+}
+h1,h3{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 20rem;
     line-height: 5rem;
+    color: #363958;
+}
+.card-body h5{
+    font-size: 1.5 rem;
+    font-weight: 700;
+    color: #363958;
 }
 
 .img-icon{
@@ -29,7 +41,7 @@ h1{
     padding-left: 2.5rem;
     padding-top: 2rem;
 }
-.banner-content p{
+.banner-content p,.cart-content p{
     font-size: 1rem;
     font-weight: 400;
 }
@@ -51,9 +63,6 @@ h1{
 /* Banner End */
 
 /* Category Section Start */
-.category{
-   
-}
 .category img{
     width: 18.3rem;
     height: 18.3rem;
@@ -63,3 +72,23 @@ h1{
 }
 
 /* category section End */
+
+.cart-img img{
+    Width: 599px;
+    Height: 354.07px;
+    
+}
+.cart-content h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.card-cart{
+    background-color: #F9F3F3;
+    border-radius: 5px;
+}
+.card-cart img{
+    padding-top: 1.5rem;
+    padding-left: .5rem;
+    height: 6rem;
+    width: 5rem;
+}
