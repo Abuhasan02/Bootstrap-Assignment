@@ -11,19 +11,30 @@ header{
 section{
     margin-top: 1rem;
 }
-h1,h3{
+section p{
+    font-size: 1rem;
+}
+h1{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 20rem;
     line-height: 5rem;
     color: #363958;
 }
+.product h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
 .card-body h5{
     font-size: 1.5 rem;
     font-weight: 700;
     color: #363958;
 }
-
+.cart-footer-content h3{
+    color: #FABE4C;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
 .img-icon{
     height: auto;
     width: 4rem;
@@ -32,9 +43,9 @@ h1,h3{
 .logo-txt{
     font-size: 1.5rem;
 }
-.navbar-nav a{
+.navbar-nav>li>a{
     font-weight: 700;
-    color: black;
+    color: #84837F;
 }
 /* banner start*/
 .banner-content{
@@ -54,17 +65,19 @@ h1,h3{
     border: none;
     border-radius: 5px;
     color: white;
+    background-color: #ddaf09;
 }
 .banner-btn i{
     color: white;
     padding-right: 5px;
     /* padding: 5px; */
+    margin-right: 5px;
 }
 /* Banner End */
 
 /* Category Section Start */
 .category img{
-    width: 18.3rem;
+    width: 16rem;
     height: 18.3rem;
     background-color: #F1F1F1;
     border-radius: 5px;
