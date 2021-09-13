@@ -159,7 +159,7 @@
       <!-- Second category section End -->
 
       <!-- Cart Section Start -->
-      <section class="d-flex mt-5 justify-content-between align-items-center" id="cart">
+      <section style="flex-wrap:wrap" class="d-flex mt-5 justify-content-between align-items-center" id="cart">
         <div class="left-cart">
         <div class="card border-0 mb-3" style="max-width: 440px;">
           <div class="card-cart">
@@ -207,13 +207,56 @@
         </div>
       </div>
       </div>
-      <div class="cart-img">
+      <div class="row">
+      <div class="col-md-6 col-sm-12 cart-img">
         <img src="Logo, Icon/XMLID 1.png"  alt="">
       </div>
+    </div>
       </section>
+      <!-- Cart section End -->
+      <!-- Contact Section Start -->
+      <section id="contact">
+        <div class="section-title">
+          <h3 class="text-center">Contact</h3>
+          <p class="hr-style"></p>
+      </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="">
+              <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" class="form-control" name="fullname" requried>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" requried>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea style="resize:none" name="message" class="form-control" id="" cols="100" rows="5"></textarea>
+              </div>
+              <div class="form-group text-center">
+                <input type="button" class="banner-btn" value="Submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    <!-- Contact Section End -->
     </main>
-    <footer>
-
+    <footer class="container">
+      <div class="row">
+        <div class="col-lg-6 text-center text-lg-left">
+          <p>&copy;Walmart</p>
+        </div>
+        <div class="col-lg-6 text-center text-lg-right">
+          <a href="#">Home</a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
     </footer>
 </body>
 </html>

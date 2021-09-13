@@ -105,3 +105,30 @@ h1{
     height: 6rem;
     width: 5rem;
 }
+#contact{
+   padding: 2% 3%;
+}
+footer{
+    background-color: #e2c455;
+    padding: 5px;
+  }
+  footer a{
+    color: rgb(36, 33, 33);
+    text-decoration: none;
+    padding: 15px 5px;
+  }
+  @media (max-width:768px) {
+      #cart{
+        flex-direction: column-reverse;
+          text-align: center;
+      }
+      .cart-img img{
+          width: 100%;
+          height: auto;
+
+      }
+      .cart-footer-content{
+          display: block;
+        justify-content: flex-end;
+      }
+  }
